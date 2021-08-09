@@ -7,9 +7,7 @@ O foco não era o HTML/CSS.
 - Implementação de aplicação com JavaScript puro.
 - Manipulação de Eventos.
 - Requisições assíncronas.
-
-Projeto prático do Bootcamp de React da IGTI
-
+- 
 ### Tecnologias utilizadas:
 
 - Javascript
