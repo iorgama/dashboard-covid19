@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 3em;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    #1da584,
+    #1b9479,
+    #1b836e,
+    #1c7362,
+    #1c6356
+  );
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 3px 0px #898999;
+}
+
+h5 {
+  text-align: center;
+  margin: 5px 0 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #1c6356;
+}
+
+h6 {
+  text-align: center;
+  margin: 0px 0 0 0;
+  font-size: 0.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.7em;
+  display: block;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+select {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.7em;
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.item {
+  max-width: 400px;
+  min-width: 200px;
+  margin: 20px auto;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  width: 16px;
+  height: 16px;
+}
